@@ -1,7 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wesley.component.find">
 
-    <application>
+    <application
+        android:label="@string/finder_app_name"
+        android:name=".FindApplication">
+
+        <activity android:name=".FindActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
     </application>
 

@@ -6,4 +6,7 @@ package com.wesley.common.common.service
  * 描述:
  */
 interface IFinderService {
+
+
+    fun getFinderContent(): String
 }

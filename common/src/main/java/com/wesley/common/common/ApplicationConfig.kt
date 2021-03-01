@@ -6,4 +6,12 @@ package com.wesley.common.common
  * 描述:
  */
 class ApplicationConfig {
+
+
+    companion object {
+
+        val APPLICATION_PATH = arrayListOf(
+            "com.wesley.component.find.FindApplication"
+        )
+    }
 }
