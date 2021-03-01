@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wesley.component.home">
+
+    <application>
+
+    </application>
+
+</manifest>

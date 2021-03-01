@@ -1,0 +1,6 @@
+include ':common'
+include ':mine'
+include ':find'
+include ':home'
+include ':app'
+rootProject.name = "Compnent"
